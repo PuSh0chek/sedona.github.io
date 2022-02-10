@@ -1,19 +1,30 @@
 .header {
   width: 1200px;
-  height: 56px;
   margin: 0;
-  padding: 0;
+  padding: 0 40px 0 40px;
 }
 .header__navigation {
+
 }
 .header__list {
   display: flex;
+  margin: 0 72px 15px 72px;
   flex-wrap: wrap;
   justify-content: space-between;
   list-style-type: none;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .header__item {
+
 }
-.manu__img {
+.header__item-link{
+  color: black;
+  font-size: 14px;
+  line-height: 26px;
+}
+.header__img {
+  position: absolute;
   z-index: 1;
+  margin: 0 auto;
 }

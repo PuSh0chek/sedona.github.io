@@ -1,0 +1,181 @@
+.main-cl {
+  padding: 0 40px 0 40px;
+}
+.main-cl__introduction {
+}
+.main-cl__heading-low {
+  display: none;
+}
+.main-cl__background-img {
+  width: 100%;
+  height: auto;
+  z-index: 3;
+}
+.main-cl__naming-img {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  margin: 132px 0 0 410px;
+}
+.main-cl__low_naming {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  margin: 459px 0 0 0;
+  top: 0;
+  left: 0;
+
+}
+.description-sity {
+  margin: 0;
+  padding: 0;
+}
+.description-sity__introduction {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+}
+.description-sity__bottom-text {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+}
+.description-sity__real-city {
+
+}
+.description-sity__block {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+.description-sity__item {
+  text-align: center;
+  background: #81B3D2;
+  color: white;
+  text-transform: uppercase;
+}
+.description-sity__item-img {
+
+}
+.description-sity__city-first {
+  text-align: center;
+}
+.description-sity__low-text {
+}
+.description-sity__reasons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.description-sity__reasons__item {
+  text-align: center;
+  text-transform: uppercase;
+}
+.description-sity__reasons-house {
+}
+.description-sity__house-up-text {
+}
+.description-sity__house-low-text {
+}
+.description-sity__reasons-hamburger {
+}
+.description-sity__hamburger-up-text {
+}
+.description-sity__eat-low-text {
+}
+.description-sity__reasons-gift {
+}
+.description-sity__gift-up-text {
+}
+.description-sity__gift-low-text {
+}
+.description-sity__other-reasons {
+}
+.description-sity__group-reasons-two {
+}
+.description-sity__group-reasons-two__block {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.description-sity__group-reasons-two__item {
+  text-transform: uppercase;
+  background: #81B3D2;
+}
+.description-sity__group-reasons-two__item__image-main {
+  width: 100%;
+  height: auto;
+}
+.description-sity__group-reasons-two__item-heading {
+  text-transform: uppercase;
+}
+.description-sity__group-reasons-two__item-number {
+}
+.description-sity__group-reasons-two__item-text {
+}
+.description-sity__group-reasons-other-all {
+}
+.description-sity__group-reasons-other-all__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #EEEEEE;
+}
+.description-sity__group-reasons-other-all__item {
+}
+.description-sity__group-reasons-other-all__heading {
+}
+.description-sity__group-reasons-other-all__uptext {
+}
+.description-sity__group-reasons-other-all__lowtext {
+}
+.search {
+}
+.search__headeing {
+  text-transform: uppercase;
+  text-align: center;
+}
+.search__introdution {
+  text-transform: uppercase;
+  text-align: center;
+}
+.search__image-map {
+  width: 100%;
+}
+.search__form {
+  text-align: center;
+  text-transform: uppercase;
+}
+.search__form-heading{
+  background: #766357;
+}
+.search__date-in {
+}
+.search__date-in__input {
+}
+.search__date-out {
+}
+.search__date-out__input {
+}
+.search__quantity-adult {
+}
+.search__quantity__adult-input {
+}
+.search__quantity-children {
+}
+.search__quantity__children-input {
+}
+.search__button{
+  background: #81B3D2;
+}
