@@ -151,10 +151,17 @@
   text-align: center;
 }
 .search__image-map {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+.search__image-map-iframe{
+  display: block;
+  height: auto;
   width: 100%;
 }
 .search__form {
-  text-align: center;
+  text-align: centergit;
   text-transform: uppercase;
 }
 .search__form-heading{

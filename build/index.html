@@ -81,7 +81,11 @@
     <section class="search">
         <h1 class="search__headeing">Заинтересовались?</h1>
         <p class="search__introdution">Укажите предполагаемые даты поездки, <br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
-        <img src="img/map.jpg" class="search__image-map" name="Карта" alt="Карта">
+        <div class="search__image-map" style="position:relative;overflow:hidden;">
+          <a href="https://yandex.ru/maps?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Яндекс.Карты</a>
+          <a href="https://yandex.ru/maps/?ll=-111.745074%2C34.867235&pt=-111.760186%2C34.869497&source=entity_search&utm_medium=mapframe&utm_source=maps&z=12.6" style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс.Карты — транспорт, навигация, поиск мест</a>
+          <iframe class="search__image-map-iframe" src="https://yandex.ru/map-widget/v1/-/CCU55NdRwD" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+        </div>
         <form class="search__form" action="">
         <h1 class="search__form-heading">ПОИСК ГОСТИНИЦЫ В седоне</h1>
         <label class="search__date-in" for="">Дата заезда:</label><input class="search__date-in__input" type="text"> <br>
