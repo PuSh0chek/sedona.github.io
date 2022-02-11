@@ -15,13 +15,13 @@
 <body class="body">
   <header class="header">
       <nav class="header__navigation">
-        <ul class="header__list">
-          <li class="header__item"><a class="header__item-link" href="#">информация</a></li>
-          <li class="header__item"><a class="header__item-link" href="#">фото и видео</a></li>
-          <li class="header__item"><img src="img/icons/logo.svg" class="header__img" alt="Логотип"></li>
-          <li class="header__item"><a class="header__item-link" href="#">карта штата</a></li>
-          <li class="header__item"><a class="header__item-link" href="#">гостиница</a></li>
-        </ul>
+          <ul class="header__list">
+            <li class="header__item header__item-left"><a class="header__item-link" href="#">информация</a></li>
+            <li class="header__item header__item-left"><a class="header__item-link" href="#">фото и видео</a></li>
+            <img src="img/icons/logo.svg" class="header__img" alt="Логотип">
+            <li class="header__item header__item-right"><a class="header__item-link" href="#">карта штата</a></li>
+            <li class="header__item header__item-right"><a class="header__item-link" href="#">гостиница</a></li>
+          </ul>
       </nav>
   </header>
   <main class="main-cl">
@@ -29,21 +29,33 @@
       <h1 class="main-cl__heading-low">Добро пожаловать в Седон</h1>
       <img src="img/background_prewieve.png" class="main-cl__background-img" alt="Горы Сидона">
       <img src="img/naming-project.svg" class="main-cl__naming-img" alt="Кампания «Сидон»">
-      <img src="img/low_naming.svg" class="main-cl__low_naming" alt="">
+      <img src="img/low_naming.svg" class="main-cl__low-naming" alt="">
     </section>
     <section class="description-sity">
-      <h1 class="description-sity__introduction">седона - небольшой городок в аризоне, <br> заслуживающий большего!</h1>
+      <h1 class="description-sity__introduction">седона — небольшой городок в аризоне, <br> заслуживающий большего!</h1>
       <p class="description-sity__bottom-text">рассмотрим 5 примчин, по которым седона круче, чем гранд каньен!</p>
       <div class="description-sity__real-city">
         <ul class="description-sity__block">
-          <li class="description-sity__item"><p class="description-sity__city-first">настоящий <br> городок</p><p>-№1-</p>
-          <p class="description-sity__low-text">Седона - не аттракцион для туристов, там <br> течёт своя жизнь</p></li>
+          <li class="description-sity__item"><p class="description-sity__city-first">настоящий <br> городок</p><p class="description-sity__city-first__number">-№1-</p>
+          <p class="description-sity__low-text">Седона — не аттракцион для туристов, там течёт своя жизнь</p></li>
           <li class="description-sity__item-img"><img src="img/mountains.png" class="description-sity__item-img" alt="Фото города Седон"></li>
         </ul>
         <ul class="description-sity__reasons">
-          <li class="description-sity__reasons__item"><img src="img/icons/house.svg" class="description-sity__reasons-house" alt="Дом"><h2 class="description-sity__house-up-text">жилье</h2><p class="description-sity__house-low-text">Рекомендуем пожить в настоящем <br> мотеле, всё как в кино!</p></li>
-          <li class="description-sity__reasons__item"><img src="img/icons/hamburger.svg" class="description-sity__reasons-hamburger" alt="Бургер"><h2 class="description-sity__hamburger-up-text">еда</h2><p class="description-sity__eat-low-text">Всегда заказывайте фирменный бургер, <br> вы не разочаруетесь!</p></li>
-          <li class="description-sity__reasons__item"><img src="img/icons/gift.svg" class="description-sity__reasons-gift" alt="Севениры"><h2 class="description-sity__gift-up-text">сувениры</h2><p class="description-sity__gift-low-text">Не только китайского, <br> но и местного производства!</p></li>
+          <li class="description-sity__reasons__item">
+            <img src="img/icons/house.svg" class="description-sity__reasons-house" alt="Дом">
+            <h2 class="description-sity__house-up-text">жилье</h2>
+            <p class="description-sity__house-low-text">Рекомендуем пожить в настоящем <br> мотеле, всё как в кино!</p>
+          </li>
+          <li class="description-sity__reasons__item">
+            <img src="img/icons/hamburger.svg" class="description-sity__reasons-hamburger" alt="Бургер">
+            <h2 class="description-sity__hamburger-up-text">еда</h2>
+            <p class="description-sity__eat-low-text">Всегда заказывайте фирменный бургер, <br> вы не разочаруетесь!</p>
+          </li>
+          <li class="description-sity__reasons__item">
+            <img src="img/icons/gift.svg" class="description-sity__reasons-gift" alt="Севениры">
+            <h2 class="description-sity__gift-up-text">сувениры</h2>
+            <p class="description-sity__gift-low-text">Не только китайского, <br> но и местного производства!</p>
+          </li>
         </ul>
       </div>
       <div class="description-sity__other-reasons">
@@ -51,7 +63,7 @@
           <ul class="description-sity__group-reasons-two__block">
             <li class="description-sity__group-reasons-two__item">
               <img src="img/canyon.svg" class="description-sity__group-reasons-two__item__image-main" alt="каньен"></li>
-            <li class="description-sity__group-reasons-two__item">
+            <li class="description-sity__group-reasons-two__item description-sity__group-reasons-two__item-img">
               <h2 class="description-sity__group-reasons-two__item-heading">Там есть <br> Мост дьявола</h2>
               <p class="description-sity__group-reasons-two__item-number">-№2-</p><p class="description-sity__group-reasons-two__item-text">Да, по нему можно пройти! Если конечно <br> вы осмелитесь</p>
             </li>
@@ -65,12 +77,12 @@
               <p class="description-sity__group-reasons-other-all__lowtext">все достопримечательности <br> находятся очень близко</p>
             </li>
             <li class="description-sity__group-reasons-other-all__item">
-              <h2 class="description-sity__group-reasons-other-all__heading">красивая дорога</h2>
+              <h2 class="description-sity__group-reasons-other-all__heading">красивая <br> дорога</h2>
               <p class="description-sity__group-reasons-other-all__uptext">-№4-</p>
               <p class="description-sity__group-reasons-other-all__lowtext">ехать в седону из лас-вегаса совсем <br> не скучно!</p>
             </li>
             <li class="description-sity__group-reasons-other-all__item">
-              <h2 class="description-sity__group-reasons-other-all__heading">мало туристов</h2>
+              <h2 class="description-sity__group-reasons-other-all__heading">мало <br> туристов</h2>
               <p class="description-sity__group-reasons-other-all__uptext">-№5-</p>
               <p class="description-sity__group-reasons-other-all__lowtext">большинство едет в гранд каньон <br> и толпится там</p>
             </li>
