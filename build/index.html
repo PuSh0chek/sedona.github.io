@@ -26,10 +26,10 @@
   </header>
   <main class="main-cl">
     <section class="main-cl__introduction">
-      <h1 class="main-cl__heading-low">Добро пожаловать в Седон</h1>
-      <img src="img/background_prewieve.png" class="main-cl__background-img" alt="Горы Сидона">
-      <img src="img/naming-project.svg" class="main-cl__naming-img" alt="Кампания «Сидон»">
-      <img src="img/low_naming.svg" class="main-cl__low-naming" alt="">
+      <h1 class="main-cl__heading-low visually-hidden">Добро пожаловать в Седон</h1>
+        <div class="main-cl__background-img">
+          <img src="img/naming-project.svg" class="main-cl__naming-img" alt="Кампания «Сидон»">
+        </div>
     </section>
     <section class="description-sity">
       <h1 class="description-sity__introduction">седона — небольшой городок в аризоне, <br> заслуживающий большего!</h1>
@@ -93,19 +93,35 @@
     <section class="search">
         <h1 class="search__headeing">Заинтересовались?</h1>
         <p class="search__introdution">Укажите предполагаемые даты поездки, <br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        <form class="search__form" action="">
+          <button class="search__form-heading">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
+          <div class="search__block-hidden">
+            <label class="search__date-in" for="">Дата заезда:</label>
+            <input class="search__date-in__input" type="date">
+            <label class="search__date-out" for="">Дата выезда:</label>
+            <input class="search__date-out__input" type="date">
+            <div class="search__quantity__block-child">
+              <label class="search__quantity-adult" for="">Взрослые:</label>
+              <div class="search__quantity__minus"></div>
+              <div class="search__quantity__plus">
+                <div class="search__quantity__plus-rotate"></div>
+              </div>
+              <input class="search__quantity__adult-input" type="text">
+              <label class="search__quantity-children" for="">Дети:</label>
+              <div class="search__quantity__minus"></div>
+              <div class="search__quantity__plus">
+                <div class="search__quantity__plus-rotate"></div>
+              </div>
+              <input class="search__quantity__children-input" type="text">
+
+            </div>
+
+          <button class="search__button">Найти</button>
+          </div>
+        </form>
         <div class="search__image-map" style="position:relative;overflow:hidden;">
-          <a href="https://yandex.ru/maps?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Яндекс.Карты</a>
-          <a href="https://yandex.ru/maps/?ll=-111.745074%2C34.867235&pt=-111.760186%2C34.869497&source=entity_search&utm_medium=mapframe&utm_source=maps&z=12.6" style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс.Карты — транспорт, навигация, поиск мест</a>
           <iframe class="search__image-map-iframe" src="https://yandex.ru/map-widget/v1/-/CCU55NdRwD" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
         </div>
-        <form class="search__form" action="">
-        <h1 class="search__form-heading">ПОИСК ГОСТИНИЦЫ В седоне</h1>
-        <label class="search__date-in" for="">Дата заезда:</label><input class="search__date-in__input" type="text"> <br>
-        <label class="search__date-out" for="">Дата выезда:</label><input class="search__date-out__input" type="text"> <br>
-        <label class="search__quantity-adult" for="">Взрослые:</label><input class="search__quantity__adult-input" type="text"> <br>
-        <label class="search__quantity-children" for="">Дети:</label><input class="search__quantity__children-input" type="text"> <br>
-        <button class="search__button">Найти</button> <br>
-      </form>
     </section>
   </main>
   <footer class="footer">
