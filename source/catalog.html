@@ -23,9 +23,118 @@
         </ul>
     </nav>
   </header>
-  <main class="">
+  <main class="catalog-main">
+    <form class="catalog-main__form" action="">
+      <div class="catalog-main__filter-block">
+        <p class="catalog-main__vatiations">Инфраструктура:</p>
+        <input class="catalog-main__pool" type="chekbox"> <label class="catalog-main__pool-label" for="">Бассейн</label>
+        <input class="catalog-main__parking" type="chekbox"> <label class="catalog-main__parking-label" for="">Парковка</label>
+        <input class="catalog-main__wi-fi" type="chekbox"> <label class="catalog-main__wi-fi-label" for="">Wi-Fi</label>
+        <p class=""></p>
+        <input class="catalog-main__hoter" type="chekbox"> <label class="catalog-main__hotapartmentser-label" for="">Гостиница</label>
+        <input class="catalog-main__motel" type="chekbox"> <label class="catalog-main__motel-label" for="">Мотель</label>
+        <input class="catalog-main__apartments" type="chekbox"> <label class="catalog-main__apartments-label" for="">Апартаменты</label>
+        <p class="catalog-main__cost">Стоимость в сутки (Р):</p>
+        <p class="catalog-main__after">от 0</p>
+        <p class="catalog-main__before">До 3000</p>
+      </div>
+      <div class="catalog-main__customization-block">
+        <div class="catalog-main__customization-list">
+          <div class="catalog-main__customization-item-circle-first"></div>
+          <div class="catalog-main__customization-item-circle-two"></div>
+          <div class="catalog-main__customization-item-line"></div>
+          <div class="catalog-main__customization-item-baground-line"></div>
+        </div>
+        <button class="catalog-main__customization-display">Показать</button>
+      </div>
+    </form>
+    <section class="result">
+      <div class="result__filter">
+        <ul class="result__list">
+          <p class="result__found">Найдено:</p>
+          <input class="result__found-input" type="text" name="" id="" value="3">
+          <p class="result__sortion">Сортировка:</p>
+          <ul class="result__sortion-list">
+            <li class="result__sortion-item-price">По цене</li>
+            <li class="result__sortion-item-type">По типу</li>
+            <li class="result__sortion-item-rating">По рейтингу</li>
+          </ul>
+          <img class="result__filter-up" src="" alt="">
+          <img class="result__filter-down" src="" alt="">
+        </ul>
+      </div>
+      <div class="result__block-element">
+        <img class="result__img" src="" alt="">
+        <p class="result__name">Amara Resort & Spa</p>
+        <p class="result__type">Гостиница</p>
+        <p class="result__price">От 4000 Р.</p>
+        <button class="result__detailed">Подробнее</button>
+        <button class="result__reserve">Забронировать</button>
+        <ul class="result__star-block">
+          <li  class="result__star-item">
+            <img class="result__star-img" src="" alt="">
+          </li>
+          <li class="result__star-item">
+            <img class="result__star-img" src="" alt="">
+          </li>
+          <li class="result__star-item">
+            <img class="result__star-img" src="" alt="">
+          </li>
+          <li class="result__star-item">
+            <img class="result__star-img" src="" alt="">
+          </li>
+        </ul>
+        <p class="result__rating">Рейтинг: 8,5</p>
+      </div>
+      <div class="result__block-element">
+        <img class="result__img" src="" alt="">
+        <p class="result__name">Desert Quail Inn</p>
+        <p class="result__type">Мотель</p>
+        <p class="result__price">От 3000 Р.</p>
+        <button class="result__detailed">Подробнее</button>
+        <button class="result__reserve">Забронировать</button>
+        <ul class="result__star-block">
+          <li  class="result__star-item">
+            <img class="result__star-img" src="" alt="">
+          </li>
+          <li class="result__star-item">
+            <img class="result__star-img" src="" alt="">
+          </li>
+          <li class="result__star-item">
+            <img class="result__star-img" src="" alt="">
+          </li>
+          <li class="result__star-item">
+            <img class="result__star-img" src="" alt="">
+          </li>
+        </ul>
+        <p class="result__rating">Рейтинг: 8,9</p>
+      </div>
+      <div class="result__block-element">
+        <img class="result__img" src="" alt="">
+        <p class="result__name">Villas at Poco Diablo</p>
+        <p class="result__type">Апартаменты</p>
+        <p class="result__price">От 2000 Р.</p>
+        <button class="result__detailed">Подробнее</button>
+        <button class="result__reserve">Забронировать</button>
+        <ul class="result__star-block">
+          <li  class="result__star-item">
+            <img class="result__star-img" src="" alt="">
+          </li>
+          <li class="result__star-item">
+            <img class="result__star-img" src="" alt="">
+          </li>
+          <li class="result__star-item">
+            <img class="result__star-img" src="" alt="">
+          </li>
+          <li class="result__star-item">
+            <img class="result__star-img" src="" alt="">
+          </li>
+        </ul>
+        <p class="result__rating">Рейтинг: 9,2</p>
+      </div>
+    </section>
   </main>
-  <footer class="">
+  <footer class="footer">
     <ul class="footer__additional-information">
       <li class="footer__additional-information__item-number">
         <p class="footer__additional-information__item-number__hashtag">#visitSEDONA</p>
@@ -46,11 +155,12 @@
             <img src="img/icons/youtube.svg" class="footer__additional-information__networks__item-youtube__img" alt="Иконка">
           </li>
         </ul>
+      </li>
       <li class="footer__additional-information__academy-info">
         <p class="footer__additional-information__text-info">Website by</p>
         <img src="img/icons/academy-logo.svg" class="footer__additional-information__academy-img" alt="Логотип академии">
       </li>
-    </ul>
+  </ul>
   </footer>
 </body>
 </html>
