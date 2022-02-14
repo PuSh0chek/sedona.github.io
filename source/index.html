@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <title>Document</title>
+  <title>Седона</title>
   <link rel="preload" href="fonts/PTSans_Bold.woff2" as="font" crossorigin="anonymous">
   <link rel="preload" href="fonts/PTSans_Regular.woff2" as="font" crossorigin="anonymous">
   <link rel="preload" href="fonts/PTSans_Bold.woff" as="font" crossorigin="anonymous">
@@ -14,13 +14,13 @@
 </head>
 <body class="body">
   <header class="header">
+    <img src="img/icons/logo.svg" class="header__img" alt="Логотип">
       <nav class="header__navigation">
           <ul class="header__list">
-            <li class="header__item header__item-left"><a class="header__item-link" href="#">информация</a></li>
-            <li class="header__item header__item-left"><a class="header__item-link" href="#">фото и видео</a></li>
-            <img src="img/icons/logo.svg" class="header__img" alt="Логотип">
-            <li class="header__item header__item-right"><a class="header__item-link" href="#">карта штата</a></li>
-            <li class="header__item header__item-right"><a class="header__item-link" href="#">гостиница</a></li>
+            <li class="header__item"><a class="header__item-link" href="#">информация</a></li>
+            <li class="header__item"><a class="header__item-link" href="#">фото и видео</a></li>
+            <li class="header__item"><a class="header__item-link" href="#">карта штата</a></li>
+            <li class="header__item"><a class="header__item-link" href="catalog.html">гостиница</a></li>
           </ul>
       </nav>
   </header>
@@ -102,20 +102,18 @@
             <input class="search__date-out__input" type="date"> <br>
             <div class="search__quantity__block-child">
               <label class="search__quantity-adult" for="">Взрослые:</label>
-              <div class="search__quantity__minus"></div>
-              <div class="search__quantity__plus">
-                <div class="search__quantity__plus-rotate"></div>
+              <div class="search__quantity__adult-block">
+                <button class="search__quantity__minus-first"></button>
+                <input class="search__quantity__adult-input" type="number" value="2">
+                <button class="search__quantity__plus-first"></button>
               </div>
-              <input class="search__quantity__adult-input" type="text">
               <label class="search__quantity-children" for="">Дети:</label>
-              <div class="search__quantity__minus"></div>
-              <div class="search__quantity__plus">
-                <div class="search__quantity__plus-rotate"></div>
+              <div class="search__quantity-children-block">
+                <button class="search__quantity__minus-two"></button>
+                <input class="search__quantity__children-input" type="number" value="1">
+                <button class="search__quantity__plus-two"></button>
               </div>
-              <input class="search__quantity__children-input" type="text">
-
             </div>
-
           <button class="search__button">Найти</button>
           </div>
         </form>

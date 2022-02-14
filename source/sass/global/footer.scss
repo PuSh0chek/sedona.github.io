@@ -1,22 +1,34 @@
 .footer {
-  // display: block;
-  // position: absolute;
-  // margin: 0;
-  // padding: 0;
-  // bottom: 0;
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 .footer__additional-information {
+  width: 1200px;
+  height: 120px;
+  position: absolute;
   display: flex;
+  margin: 0;
+  padding: 0;
   flex-wrap: wrap;
   justify-content: space-between;
-  background: rgba(189, 186, 186, 0.9);
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9);
   list-style-type: none;
 }
 .footer__additional-information__item-number {
 }
 .footer__additional-information__item-number__hashtag {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
 }
 .footer__additional-information__item-number__phone {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
 }
 .footer__additional-information__networks {
 }
@@ -50,6 +62,13 @@
   justify-content: space-between;
 }
 .footer__additional-information__text-info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  margin-right: 9px;
+  text-transform: uppercase;
 }
 .footer__additional-information__academy-img {
+  margin-right: 139px;
 }
