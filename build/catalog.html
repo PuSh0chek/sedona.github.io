@@ -11,7 +11,7 @@
   <link rel="preload" href="fonts/PTSans_Regular.woff" as="font" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.min.css"/>
 </head>
-<body>
+<body class="body">
   <header class="header">
     <img src="img/icons/logo.svg" class="header__img" alt="Логотип">
     <nav class="header__navigation">
@@ -26,24 +26,30 @@
   <main class="catalog-main">
     <form class="catalog-main__form" action="">
       <div class="catalog-main__filter-block">
-        <p class="catalog-main__vatiations">Инфраструктура:</p>
-        <input class="catalog-main__pool" type="chekbox"> <label class="catalog-main__pool-label" for="">Бассейн</label>
-        <input class="catalog-main__parking" type="chekbox"> <label class="catalog-main__parking-label" for="">Парковка</label>
-        <input class="catalog-main__wi-fi" type="chekbox"> <label class="catalog-main__wi-fi-label" for="">Wi-Fi</label>
-        <p class=""></p>
-        <input class="catalog-main__hoter" type="chekbox"> <label class="catalog-main__hotapartmentser-label" for="">Гостиница</label>
-        <input class="catalog-main__motel" type="chekbox"> <label class="catalog-main__motel-label" for="">Мотель</label>
-        <input class="catalog-main__apartments" type="chekbox"> <label class="catalog-main__apartments-label" for="">Апартаменты</label>
-        <p class="catalog-main__cost">Стоимость в сутки (Р):</p>
-        <p class="catalog-main__after">от 0</p>
-        <p class="catalog-main__before">До 3000</p>
+        <div class="catalog-main__vatiations">
+          <p class="catalog-main__vatiations-name">Инфраструктура:</p>
+          <input class="catalog-main__pool" name="" type="checkbox" checked> <label class="catalog-main__pool-label" for="">Бассейн</label>
+          <input class="catalog-main__parking" name="" type="checkbox"> <label class="catalog-main__parking-label" for="">Парковка</label>
+          <input class="catalog-main__wi-fi" name="" type="checkbox"> <label class="catalog-main__wi-fi-label" for="">Wi-Fi</label>
+        </div>
+        <div class="catalog-main__type-house">
+          <p class="catalog-main__type-house-name">Тип жилья</p>
+          <input class="catalog-main__hoter" name="" type="checkbox" checked> <label class="catalog-main__hotapartmentser-label" for="">Гостиница</label>
+          <input class="catalog-main__motel" name="" type="checkbox" checked> <label class="catalog-main__motel-label" for="">Мотель</label>
+          <input class="catalog-main__apartments" name="" type="checkbox" checked> <label class="catalog-main__apartments-label" for="">Апартаменты</label>
+          <p class="catalog-main__cost">Стоимость в сутки (Р):</p>
+        </div>
+
+        <div class="catalog-main-summ-block">
+          <p class="catalog-main__after">от 0</p>
+          <p class="catalog-main__before">До 3000</p>
+        </div>
+
       </div>
       <div class="catalog-main__customization-block">
         <div class="catalog-main__customization-list">
-          <div class="catalog-main__customization-item-circle-first"></div>
-          <div class="catalog-main__customization-item-circle-two"></div>
+          <div class="catalog-main__customization-item-circle"></div>
           <div class="catalog-main__customization-item-line"></div>
-          <div class="catalog-main__customization-item-baground-line"></div>
         </div>
         <button class="catalog-main__customization-display">Показать</button>
       </div>

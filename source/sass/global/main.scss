@@ -449,3 +449,192 @@
   background: #A9A9A9;
   transform: rotate(90deg);
 }
+
+///////////////////////////////////////////////KATALOG\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+.catalog-main {
+
+}
+.catalog-main__form {
+  width: 1200px;
+  height: 217px;
+  display: block;
+  background: url("../img/catalog-background.png") no-repeat;
+}
+.catalog-main__filter {
+}
+.catalog-main__vatiations {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.catalog-main__vatiations-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: white;
+  text-transform: uppercase;
+}
+.catalog-main__pool {
+}
+.catalog-main__pool-label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: white;
+  text-transform: uppercase;
+}
+.catalog-main__parking {
+}
+.catalog-main__parking-label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: white;
+  text-transform: uppercase;
+}
+.catalog-main__wi-fi {
+
+}
+.catalog-main__type-house {
+  display: flex;
+  flex-wrap: wrap;
+}
+.catalog-main__type-house-name{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: white;
+  text-transform: uppercase;
+}
+.catalog-main__wi-fi-label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: white;
+  text-transform: uppercase;
+}
+.catalog-main__hoter {
+}
+.catalog-main__hotapartmentser-label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: white;
+  text-transform: uppercase;
+}
+.catalog-main__motel {
+}
+.catalog-main__motel-label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: white;
+  text-transform: uppercase;
+}
+.catalog-main__apartments {
+}
+.catalog-main__apartments-label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: white;
+  text-transform: uppercase;
+}
+.catalog-main__cost {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: white;
+  text-transform: uppercase;
+}
+.catalog-main-summ-block {
+  display: inline-block;
+  width: 317px;
+  height: 36;
+  border: white;
+}
+.catalog-main__after {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: white;
+  text-transform: uppercase;
+}
+.catalog-main__before {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: white;
+  text-transform: uppercase;
+}
+.catalog-main__customization-block {
+}
+.catalog-main__customization-list {
+}
+.catalog-main__customization-item-circle {
+}
+.catalog-main__customization-item-line {
+}
+.catalog-main__customization-item-line::before {
+
+}
+.catalog-main__customization-display {
+}
+.result {
+}
+.result__filter {
+}
+.result__list {
+}
+.result__found {
+}
+.result__found-input {
+}
+.result__sortion {
+}
+.result__sortion-list {
+}
+.result__sortion-item-price {
+}
+.result__sortion-item-type {
+}
+.result__sortion-item-rating {
+}
+.result__filter-up {
+}
+.result__filter-down {
+}
+.result__block-element {
+}
+.result__img {
+}
+.result__name {
+}
+.result__type {
+}
+.result__price {
+}
+.result__detailed {
+}
+.result__reserve {
+}
+.result__star-block {
+}
+.result__star-item {
+}
+.result__star-img {
+}
+.result__rating {
+}
